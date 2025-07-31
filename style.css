@@ -1,1 +1,25 @@
 
+    /* Your Custom Styles */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 24rem; /* This is the corrected line */
+        }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .tab-button.active {
+            border-color: #047857;
+            background-color: #d1fae5;
+            color: #065f46;
+        }
