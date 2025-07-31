@@ -28,7 +28,8 @@
     <!-- Visualization & Content Choices: 1. Prevalence (75%): Goal=Inform, Method=Large stat + Chart.js Donut Chart, Interaction=None, Justification=High visual impact for a key statistic. 2. Hemorrhoid Types: Goal=Organize, Method=HTML/JS Tabs, Interaction=Click to reveal content, Justification=Breaks down complex info into digestible, user-controlled chunks. 3. Treatment Ladder: Goal=Organize, Method=HTML/Tailwind vertical diagram, Interaction=None, Justification=Visually represents the escalation of treatments more effectively than a table. 4. Dermossence Benefits: Goal=Compare, Method=Chart.js Radar Chart, Interaction=Hover for tooltips, Justification=Effectively shows multiple, balanced benefits of a single product. 5. FAQ: Goal=Organize, Method=HTML/JS Accordion, Interaction=Click to expand/collapse, Justification=Provides detailed answers without cluttering the UI. All diagrams are HTML/CSS based. -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -44,44 +45,17 @@
         "alternateName": "Piles",
         "description": "A common condition where veins in the lower rectum and anus become swollen and inflamed, leading to symptoms like pain, itching, and bleeding.",
         "cause": [
-          {
-            "@type": "Thing",
-            "name": "Straining during bowel movements"
-          },
-          {
-            "@type": "Thing",
-            "name": "Chronic constipation or diarrhea"
-          },
-          {
-            "@type": "Thing",
-            "name": "Prolonged sitting on the toilet"
-          },
-          {
-            "@type": "Thing",
-            "name": "Low-fiber diet"
-          },
-          {
-            "@type": "Thing",
-            "name": "Pregnancy"
-          }
+          { "@type": "Thing", "name": "Straining during bowel movements" },
+          { "@type": "Thing", "name": "Chronic constipation or diarrhea" },
+          { "@type": "Thing", "name": "Prolonged sitting on the toilet" },
+          { "@type": "Thing", "name": "Low-fiber diet" },
+          { "@type": "Thing", "name": "Pregnancy" }
         ],
         "symptom": [
-          {
-            "@type": "MedicalSymptom",
-            "name": "Rectal bleeding"
-          },
-          {
-            "@type": "MedicalSymptom",
-            "name": "Anal itching and irritation"
-          },
-          {
-            "@type": "MedicalSymptom",
-            "name": "Pain and discomfort"
-          },
-          {
-            "@type": "MedicalSymptom",
-            "name": "Swelling or lump around the anus"
-          }
+          { "@type": "MedicalSymptom", "name": "Rectal bleeding" },
+          { "@type": "MedicalSymptom", "name": "Anal itching and irritation" },
+          { "@type": "MedicalSymptom", "name": "Pain and discomfort" },
+          { "@type": "MedicalSymptom", "name": "Swelling or lump around the anus" }
         ],
         "possibleTreatment": {
           "@type": "Product",
@@ -93,11 +67,43 @@
             "@type": "Brand",
             "name": "LUXALRY"
           },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "135"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Amina"
+              },
+              "reviewBody": "I was skeptical, but this really works. Instant soothing effect and no side effects. 10/10."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Khalid"
+              },
+              "reviewBody": "Great product and very fast delivery. Would definitely buy again."
+            }
+          ],
           "offers": {
             "@type": "Offer",
             "url": "https://www.etsy.com/listing/4341809941/natural-moroccan-soothing-oil-for",
             "priceCurrency": "USD",
             "price": "39.99",
+            "priceValidUntil": "2025-12-31",
             "availability": "https://schema.org/InStock",
             "seller": {
               "@type": "Organization",
@@ -158,35 +164,34 @@
             "text": "Yes. Self-care is vital, but it is not a substitute for professional medical advice. It is essential to get a formal diagnosis to rule out other serious conditions and discuss the full range of treatment options."
           }
         },
-    {
-  "@type": "Question",
-  "name": "How do I use it?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Simply clean and dry the affected area. Apply a small amount of oil with a clean finger or cotton swab and gently massage. Use twice daily, in the morning and at night, for best results."
-  }
-},
-{
-  "@type": "Question",
-  "name": "Is the packaging discreet?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Absolutely. We understand the need for privacy. All orders are shipped in plain, unbranded packaging."
-  }
-},
-{
-  "@type": "Question",
-  "name": "How long does one bottle last?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "A 50ml bottle typically lasts for several weeks of regular, twice-daily use, as only a small amount is needed per application."
-  }
-}
+        {
+          "@type": "Question",
+          "name": "How do I use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simply clean and dry the affected area. Apply a small amount of oil with a clean finger or cotton swab and gently massage. Use twice daily, in the morning and at night, for best results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the packaging discreet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We understand the need for privacy. All orders are shipped in plain, unbranded packaging."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does one bottle last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 50ml bottle typically lasts for several weeks of regular, twice-daily use, as only a small amount is needed per application."
+          }
+        }
       ]
     }
   ]
 }
-
 </script>
 
 </head>
