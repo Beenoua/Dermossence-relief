@@ -98,40 +98,7 @@
             }
           ],
           "offers": {
-        "shippingDetails": {
-  "@type": "OfferShippingDetails",
-  "shippingDestination": {
-    "@type": "DefinedRegion",
-    "addressCountry": "MA"
-  },
-  "deliveryTime": {
-    "@type": "ShippingDeliveryTime",
-    "handlingTime": {
-      "@type": "QuantitativeValue",
-      "minValue": 1,
-      "maxValue": 2,
-      "unitCode": "d"
-    },
-    "transitTime": {
-      "@type": "QuantitativeValue",
-      "minValue": 2,
-      "maxValue": 5,
-      "unitCode": "d"
-    }
-  },
-  "shippingRate": {
-    "@type": "MonetaryAmount",
-    "value": "0.00",
-    "currency": "MAD"
-  }
-},
-"hasMerchantReturnPolicy": {
-  "@type": "MerchantReturnPolicy",
-  "applicableCountry": "MA",
-  "returnPolicyCategory": "https://schema.org/NoReturns",
-  "merchantReturnDays": 0
-}
-
+        
             "@type": "Offer",
             "url": "https://www.etsy.com/listing/4341809941/natural-moroccan-soothing-oil-for",
             "priceCurrency": "USD",
@@ -141,10 +108,41 @@
             "seller": {
               "@type": "Organization",
               "name": "LUXALRY"
-            }
-          }
-        }
+},
+  "shippingDetails": {
+    "@type": "OfferShippingDetails",
+    "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "MA"
+    },
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 2,
+        "unitCode": "d"
       },
+      "transitTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 2,
+        "maxValue": 5,
+        "unitCode": "d"
+      }
+    },
+    "shippingRate": {
+      "@type": "MonetaryAmount",
+      "value": "0.00",
+      "currency": "MAD"
+    }
+  },
+  "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "applicableCountry": "MA",
+    "returnPolicyCategory": "https://schema.org/NoReturns",
+    "merchantReturnDays": 0
+  }
+}
       "publisher": {
         "@type": "Organization",
         "name": "LUXALRY",
