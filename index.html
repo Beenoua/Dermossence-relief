@@ -27,18 +27,21 @@
     <!-- Application Structure Plan: The SPA is designed as a narrative journey. It starts with a broad understanding of the problem (prevalence, types, causes) using interactive tabs to reduce cognitive load. It then visually presents the 'treatment ladder' as a clear, step-by-step process. This naturally pivots to introducing a 'natural alternative,' leading into a detailed, interactive spotlight on Dermossence, exploring its unique ingredients and benefits. The structure concludes with practical tools (FAQ accordion) and a clear call to action. This user-centric flow is more engaging than the linear report structure, designed to educate and guide the user toward a solution. -->
     <!-- Visualization & Content Choices: 1. Prevalence (75%): Goal=Inform, Method=Large stat + Chart.js Donut Chart, Interaction=None, Justification=High visual impact for a key statistic. 2. Hemorrhoid Types: Goal=Organize, Method=HTML/JS Tabs, Interaction=Click to reveal content, Justification=Breaks down complex info into digestible, user-controlled chunks. 3. Treatment Ladder: Goal=Organize, Method=HTML/Tailwind vertical diagram, Interaction=None, Justification=Visually represents the escalation of treatments more effectively than a table. 4. Dermossence Benefits: Goal=Compare, Method=Chart.js Radar Chart, Interaction=Hover for tooltips, Justification=Effectively shows multiple, balanced benefits of a single product. 5. FAQ: Goal=Organize, Method=HTML/JS Accordion, Interaction=Click to expand/collapse, Justification=Provides detailed answers without cluttering the UI. All diagrams are HTML/CSS based. -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
-    <script type="application/ld+json">
+    
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "MedicalWebPage",
+      "@type": "Organization - MedicalWebPage",
+      "@id": "https://luxalry.com/#organization",
       "name": "Dermossence by LUXALRY - Natural Moroccan Soothing Oil for Hemorrhoids - An Interactive Guide to Understanding & Managing Hemorrhoids",
+      "logo": "https://dermossence-relief.luxalry.com/images/Dermossence-relief-logo.webp",
       "image": "https://dermossence-relief.luxalry.com/images/Find-lasting-hemorrhoid-relief-with-our-complete-guide-Understand-symptoms-causes-and-discover-Dermossence-%20potent-all-natural-Moroccan-oil-for-fast-soothing-care-Dermossence-by-luxalry-how-to-get.webp",
       "description": "Find lasting hemorrhoid relief with our complete guide. Understand symptoms, causes, and discover Dermossence, a potent, all-natural Moroccan oil for fast, soothing care. Dermossence is a premium, all-natural topical oil crafted from a unique, two-ingredient Moroccan formula of Olive Oil and Euphorbia (Daghmous). It offers a pure, potent, and traditionally-backed solution for lasting hemorrhoid relief without synthetic chemicals.",
       "keywords": "hemorrhoid relief, hemorrhoid treatment, natural hemorrhoid treatment, Dermossence, how to get rid of hemorrhoids, piles treatment, external hemorrhoids, internal hemorrhoids, hemorrhoid pain relief, anal itching, soothing oil for hemorrhoids, Moroccan oil, Euphorbia, Daghmous, LUXALRY, chemical-free hemorrhoid cream, hemorrhoid symptoms, stop hemorrhoid bleeding, fast hemorrhoid relief, best treatment for piles",
       "url": "https://dermossence-relief.luxalry.com",
-      "mainEntity": {
+     "mainEntity": {
         "@type": "MedicalCondition",
         "name": "Hemorrhoids",
         "alternateName": "Piles",
@@ -56,7 +59,7 @@
           { "@type": "MedicalSymptom", "name": "Pain and discomfort" },
           { "@type": "MedicalSymptom", "name": "Swelling or lump around the anus" }
         ],
-        "possibleTreatment": {
+    "possibleTreatment": {
           "@type": "Product",
           "name": "Dermossence by LUXALRY - Natural Moroccan Soothing Oil for Hemorrhoids",
           "image": "https://dermossence-relief.luxalry.com/images/Find-lasting-hemorrhoid-relief-with-our-complete-guide-Understand-symptoms-causes-and-discover-Dermossence-%20potent-all-natural-Moroccan-oil-for-fast-soothing-care-Dermossence-by-luxalry-how-to-get.webp",
@@ -97,65 +100,175 @@
               "reviewBody": "Great product and very fast delivery. Would definitely buy again."
             }
           ],
-          "offers": {
-        
-            "@type": "Offer",
-            "url": "https://www.etsy.com/listing/4341809941/natural-moroccan-soothing-oil-for",
-            "priceCurrency": "USD",
-            "price": "39.99",
-            "priceValidUntil": "2025-12-31",
-            "availability": "https://schema.org/InStock",
-            "seller": {
-              "@type": "Organization",
-              "name": "LUXALRY"
-},
-  "shippingDetails": {
-    "@type": "OfferShippingDetails",
-    "shippingDestination": {
-      "@type": "DefinedRegion",
-      "addressCountry": "MA"
-    },
-    "deliveryTime": {
-      "@type": "ShippingDeliveryTime",
-      "handlingTime": {
-        "@type": "QuantitativeValue",
-        "minValue": 1,
-        "maxValue": 2,
-        "unitCode": "d"
+    "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "135"
+          },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+212768356015",
+        "contactType": "Customer Support",
+        "email": "support@luxalry.com",
+        "areaServed": "MA",
+        "availableLanguage": "ar - fr- en"
       },
-      "transitTime": {
-        "@type": "QuantitativeValue",
-        "minValue": 2,
-        "maxValue": 5,
-        "unitCode": "d"
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MA"
+      },
+      "sameAs": [
+        "https://www.facebook.com/luxalry",
+        "https://www.instagram.com/luxalry",
+        "https://www.tiktok.com/@luxalry"
+        "https://www.youtube.com.com/@luxalry"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dermossence-relief.luxalry.com/p/hemorrhoid-relief/#webpage",
+      "url": "https://dermossence-relief.luxalry.com/p/hemorrhoid-relief",
+      "name": "زيت Dermossence Relief لعلاج البواسير",
+      "isPartOf": {
+        "@id": "https://dermossence-relief.luxalry.com/#website"
+      },
+      "datePublished": "2024-05-01T10:00:00+01:00",
+      "dateModified": "2025-07-31T17:02:00+01:00",
+      "author": {
+        "@id": "https://luxalry.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://luxalry.com/#organization"
       }
     },
-    "shippingRate": {
-      "@type": "MonetaryAmount",
-      "value": "0.00",
-      "currency": "MAD"
-    }
-  },
-  "hasMerchantReturnPolicy": {
-    "@type": "MerchantReturnPolicy",
-    "applicableCountry": "MA",
-    "returnPolicyCategory": "https://schema.org/NoReturns",
-    "merchantReturnDays": 0
-  }
-}
-      "publisher": {
-        "@type": "Organization",
-        "name": "LUXALRY",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://dermossence-relief.luxalry.com/images/Dermossence-relief-logo.webp"
+    {
+      "@type": "Product",
+      "name": "Dermossence Relief",
+      "description": "زيت طبيعي 100% لعلاج البواسير الداخلية والخارجية، سريع المفعول ومضاد للالتهاب",
+      "image": "https://dermossence-relief.luxalry.com/images/Dermossence-Relief.webp",
+      "sku": "DR001",
+      "mpn": "LUX-DR001",
+      "gtin13": "9900005099935",
+      "category": "Health & Beauty > Health Care > OTC Medications & Treatments > Hemorrhoid Treatments",
+      "material": "زيت نباتي طبيعي",
+      "countryOfOrigin": "MA",
+      "award": "ONSSA, GMP, ISO",
+      "brand": {
+        "@type": "Brand",
+        "name": "LUXALRY"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "273"
+      },
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "فاطمة الزهراء"
+        },
+        "datePublished": "2025-07-25",
+        "reviewBody": "منتج رائع وفعال جدا، شعرت بالراحة من اليوم الأول. أنصح به بشدة!",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "39.99",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2025-12-31",
+        "url": "https://dermossence-relief.luxalry.com/p/hemorrhoid-relief",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "LUXALRY"
+        },
+        "acceptedPaymentMethod": [
+          "Cash",
+          "Stripe",
+          "PayPal"
+        ],
+        "deliveryMethod": [
+          "https://schema.org/LocalDelivery",
+          "https://schema.org/OnSitePickup",
+          "https://schema.org/PostalService"
+        ],
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "MA",
+          "returnPolicyCategory": "https://schema.org/NoReturns",
+          "merchantReturnDays": 0
         }
       }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dermossence-relief.luxalry.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "المنتجات",
+          "item": "https://dermossence-relief.luxalry.com/products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dermossence Relief"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
+          "@type": "Question",
+          "name": "ما هي طريقة استعمال زيت Dermossence Relief؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يتم تنظيف المنطقة المصابة وتجفيفها جيدا، ثم وضع كمية قليلة من الزيت وتدليكها بلطف. تستعمل مرتين في اليوم، صباحا ومساء، للحصول على أفضل النتائج."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل هذا الزيت مناسب للنساء الحوامل؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "بشكل عام، يعتبر الزيت آمنا نظرا لمكوناته الطبيعية. لكننا نوصي دائما باستشارة الطبيب قبل استعمال أي منتج خلال فترة الحمل أو الرضاعة لضمان سلامتكم."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كم يستغرق من الوقت حتى تظهر النتائج؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يشعر العديد من المستخدمين بتأثير مهدئ فوري عند الاستعمال الأول. النتائج العلاجية الكاملة وتقليل الالتهاب تظهر مع الاستعمال المنتظم خلال الأيام القليلة الأولى."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dermossence-relief.luxalry.com/#website",
+      "url": "https://dermossence-relief.luxalry.com",
+      "name": "Dermossence Relief",
+      "publisher": {
+        "@id": "https://luxalry.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://dermossence-relief.luxalry.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    {
           "@type": "Question",
           "name": "Do hemorrhoids go away on their own?",
           "acceptedAnswer": {
@@ -219,13 +332,11 @@
             "text": "A 50ml bottle typically lasts for several weeks of regular, twice-daily use, as only a small amount is needed per application."
           }
         }
-      ]
+      }
     }
   ]
 }
 </script>
-
-
 
 
 </head>
