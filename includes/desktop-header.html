@@ -1,0 +1,20 @@
+<!-- Header & Language Switcher -->
+    <header class="bg-white shadow-md" dir="ltr">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="/">
+                <img src="/assets/images/Dr-Chama-Elmanjra-Gastro-entérologue-&-Hépatologue-à-Marrakech-logo.webp" loading="lazy" alt="Logo Dr. Chama Elmanjra logo" class="h-12 md:h-16">
+            </a>
+            <div class="flex items-center space-x-2 md:space-x-4">
+                <div class="flex items-center space-x-2">
+                    <button id="btn-fr-header" class="lang-btn active px-3 py-1 text-sm font-medium rounded-md bg-gray-200 text-gray-700 hover:bg-[var(--brand-primary)] hover:text-white">FR</button>
+                    <button id="btn-en-header" class="lang-btn px-3 py-1 text-sm font-medium rounded-md bg-gray-200 text-gray-700 hover:bg-[var(--brand-primary)] hover:text-white">EN</button>
+                    <button id="btn-ar-header" class="lang-btn px-3 py-1 text-sm font-medium rounded-md bg-gray-200 text-gray-700 hover:bg-[var(--brand-primary)] hover:text-white">AR</button>
+                </div>
+                <a href="#form" class="bg-[var(--brand-primary)] hover:bg-opacity-90 text-white font-bold py-2 px-4 rounded-md text-sm transition duration-300" onclick="openContactModal(document.documentElement.lang)">
+                    <span class="cta-fr">Prendre RDV</span>
+                    <span class="cta-en hidden">Book Now</span>
+                    <span class="cta-ar hidden">احجز موعد</span>
+                </a>
+            </div>
+        </nav>
+    </header>
